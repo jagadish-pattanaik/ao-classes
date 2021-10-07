@@ -1,0 +1,35 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#4CAF50"
+			android:text="SAVE"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"/>
+	</LinearLayout>
+	<EditText
+		android:id="@+id/edittext1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:textSize="18sp"
+		android:textColor="#000000"
+		android:hint="Write here..."
+		android:textColorHint="#607D8B"/>
+</LinearLayout>
